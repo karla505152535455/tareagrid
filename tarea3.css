@@ -1,0 +1,136 @@
+.principal{
+    background-color: cadetblue;
+    display: grid;
+    gap: 20px;
+    justify-content: center;
+}
+.caja1{
+    background-color: aqua;
+    height: 300px;
+    width: 800px;
+    padding: 30px;
+    display: grid;
+
+    /*gap: 10px;*/
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 20px 40px auto auto auto;
+    
+}
+.c1{
+    background-color: chartreuse;
+    border-color: rgb(22, 33, 23);
+    border-style: solid;
+    grid-column: 1/6;
+    
+}
+.c2{
+    background-color: rgb(255, 72, 0);
+    border-color: rgb(22, 33, 23);
+    border-style: solid;
+    grid-row: 2/4;
+    grid-column: 1/4;
+
+}
+.c3{
+    background-color: rgb(255, 72, 0);
+    border-color: rgb(22, 33, 23);
+    border-style: solid;
+    grid-row: 2/4;
+
+}
+.c4{
+    background-color: rgb(255, 72, 0);
+    border-color: rgb(22, 33, 23);
+    border-style: solid;
+    grid-row: 2/4;
+
+}
+.c5{
+    background-color: rgb(55, 50, 214);
+    border-color: rgb(22, 33, 23);
+    border-style: solid;
+    grid-row: 4/4;
+    
+
+}
+.c6{
+    background-color: rgb(55, 50, 214);
+    border-color: rgb(22, 33, 23);
+    border-style: solid;
+    grid-row: 4/4;
+    grid-column: 2/6;
+
+}
+.c7{
+    background-color: rgb(146, 73, 224);
+    border-color: rgb(22, 33, 23);
+    border-style: solid;
+    grid-column: 1/4;
+   grid-row: 7/5;
+    
+    
+    
+}
+.c8{
+    background-color: rgb(146, 73, 224);
+    border-color: rgb(22, 33, 23);
+    border-style: solid;
+    grid-column: 4/6;
+    
+    
+}
+.c9{
+    background-color: rgb(146, 73, 224);
+    border-color: rgb(22, 33, 23);
+    border-style: solid;
+    grid-column: 4/6;
+    grid-row: auto;
+    
+}
+
+
+
+ /*contenedor2*/
+
+ .caja2{
+    
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    display: flex;
+    grid-row: 50px;
+ }
+.c2-2{
+    background-color: rgb(210, 14, 79);
+    height: 230px;  
+    width: 250px;
+    display: grid;
+    grid-template-columns: 20px 20px;
+   
+   justify-content: space-between;
+   align-items: center;
+   padding: 5px;
+
+}
+.uno1{
+    background-color: rgb(125, 79, 23);
+    height: 50px;
+    width: 230px; 
+    grid-row: 2/2;
+}
+.uno2{
+    background-color: rgb(12, 141, 51);
+    height: 50px;
+    width: 90px; 
+    grid-row: 4/3;
+    
+}
+.uno3{
+    background-color: rgb(19, 129, 170);
+    height: 50px;
+    width: 90px; 
+    grid-row: 4/3;
+    grid-column: 3/4;
+}
+
+
